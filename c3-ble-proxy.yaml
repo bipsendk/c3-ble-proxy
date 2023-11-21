@@ -39,7 +39,7 @@ ota:
 
 button:
   - platform: safe_mode
-    name: "${friendly_name} (Safe Mode)"
+    name: "C3 BLE Proxy (Safe Mode)"
 
 
 wifi:
