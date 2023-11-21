@@ -28,7 +28,6 @@ esp32:
 
 # Enable logging
 logger:
-  level: verbose
 
 # Enable Home Assistant API
 api:
@@ -40,7 +39,7 @@ ota:
 
 button:
   - platform: safe_mode
-    name: ${friendly_name} (Safe Mode)
+    name: "${friendly_name} (Safe Mode)"
 
 
 wifi:
