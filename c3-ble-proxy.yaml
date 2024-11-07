@@ -35,7 +35,9 @@ api:
     key: "EncryptionKey="
 
 ota:
-  password: "OtaPassword"
+  - platform: esphome
+    # See: https://esphome.io/components/ota.html
+    password: "OtaPassword"
 
 button:
   - platform: safe_mode
